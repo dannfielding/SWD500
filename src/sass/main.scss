@@ -1,3 +1,26 @@
+@import 'modules/all';
+
 body {
-    background-color: orange;
+    background-color: $orange;
+}
+
+//Creating the grid
+//Grid variables
+$grid_cols: 12;
+$max_width: 100%;
+$col_1_width: $max_width/$grid_cols;
+
+@for $i from 1 through 12 {
+    .col-#{$i} {
+        width: $col_1_width * $i;
+    }
+}
+@for $i from 1 through 12 {
+    .offset-#{$i} {
+        width: $col_1_width * $i;
+    }
+}
+
+.bg {
+    border: 1px solid red;
 }
