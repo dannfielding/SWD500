@@ -1,4 +1,4 @@
-@import 'modules/all';
+@import 'variables/all';
 
 body {
     background-color: $orange;
@@ -13,6 +13,10 @@ $col_1_width: $max_width/$grid_cols;
 @for $i from 1 through 12 {
     .col-#{$i} {
         width: $col_1_width * $i;
+        content: "";
+        display: block;
+        float: left;
+        
     }
 }
 @for $i from 1 through 12 {
@@ -21,6 +25,20 @@ $col_1_width: $max_width/$grid_cols;
     }
 }
 
+* {
+    box-sizing: border-box;
+}
+
 .bg {
     border: 1px solid red;
+}
+
+.wrapper {
+    display: table;
+}
+
+.resume_img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
