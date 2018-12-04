@@ -1,28 +1,77 @@
 <!doctype html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <title>Dan Fielding's E-Portfolio</title>
 </head>
+
 <body>
 
-<div class="wrapper">
-    <img src="images/images.jpg" alt="sunset_background">
-    <div class="header">
-        <h1>Dan Fielding's E-Portfolio</h1>
-    </div>
-    <section class="about">
-        <h2 class="about_title">About</h2>
-        <img class="about_img" src="images/me.jpg" alt="a picture of me">
-        <div class="about_text">
-        </div>
-    </section>
-</div>
+    <div class="wrapper">
+        <!-- Home Section -->
+        <section class="home">
+            <h1>Dan Fielding's E-Portfolio</h1>
+            <img src="images/images.jpg" alt="sunset_background">
+        </section>
 
-<script type="text/javascript" src="bundle.js"></script>
+        <!-- About Section -->
+        <section class="about">
+            <h2 class="about_title">About</h2>
+            <img class="about_img" src="images/me.jpg" alt="a picture of me">
+            <div class="about_text">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer scelerisque sodales augue eu faucibus. Nunc varius quam ac libero hendrerit, eu vestibulum neque tristique.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer scelerisque sodales augue eu faucibus. Nunc varius quam ac libero hendrerit, eu vestibulum neque tristique.
+                </p>
+            </div>
+        </section>
+
+        <!-- Work Section -->
+        <section class="work">
+            <h2>Work</h2>
+            <div class="work_items">
+                <!-- Porfolio Item 1 -->
+                <figure class="work_item">
+                    <img src="images/work1.png" alt="project one preview">
+                    <figcaption>
+                        <h3 class="work_title">Project Name</h3>
+                        <p class="work_description">What the project is</p>
+                        <a href="" class="work_link">See Project</a>
+                    </figcaption>
+                </figure>
+
+                <!-- Porfolio Item 2 -->
+                <figure class="work_item">
+                    <img src="images/work2.png" alt="project two preview">
+                    <figcaption>
+                        <h3 class="work_title">Project Name</h3>
+                        <p class="work_description">What the project is</p>
+                        <a href="" class="work_link">See Project</a>
+                    </figcaption>
+                </figure>
+
+                <!-- Porfolio Item 3 -->
+                <figure class="work_item">
+                    <img src="images/work3.png" alt="project three preview">
+                    <figcaption>
+                        <h3 class="work_title">Project Name</h3>
+                        <p class="work_description">What the project is</p>
+                        <a href="" class="work_link">See Project</a>
+                    </figcaption>
+                </figure>
+            </div>
+
+
+        </section>
+    </div>
+
+    <script type="text/javascript" src="bundle.js"></script>
 </body>
+
 </html>
