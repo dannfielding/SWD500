@@ -44,17 +44,20 @@ body {
     margin: 0;
 }
 
-.nav ul {
-    list-style: none;
-    text-align: center;
-}
+//navigation styling
 
 .nav {
     position: fixed;
     overflow: hidden;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: $gray;
 }
+
+.nav ul {
+    list-style: none;
+    text-align: center;
+}
+
 
 .nav ul li {
     display: inline-block;
@@ -75,6 +78,24 @@ body {
     text-align: center;
 }
 
+//image styling
+
 .home_img {
     width: 100%;
+}
+
+.about_img {
+    text-align: center;
+}
+
+.skills_img {
+    text-align: center;
+}
+
+.resume_img {
+    text-align: center;
+}
+
+.social_img {
+    text-align: center;
 }

@@ -11,28 +11,28 @@
 
 <body>
     <div class="wrapper">
-<header>
-    <div class="nav">
-        <div class="col-4 bg">
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <Li><a href="#">Skills</a></Li>
-            </ul>
-        </div>
-        <div class="col-4 bg">
-            <h1>Dan Fielding's E-Portfolio</h1>
-        </div>
-        <div class="col-4 bg">
-            <ul>
-                <li><a href="#">Work</a></li>
-                <li><a href="#">Resume</a></li>
-                <Li><a href="#">Contact</a></Li>
-            </ul>
-        </div>
-    </div>
-</header>
-        
+        <header>
+            <div class="nav">
+                <div class="col-4">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <Li><a href="#">Skills</a></Li>
+                    </ul>
+                </div>
+                <div class="col-4">
+                    <h1>Dan Fielding's E-Portfolio</h1>
+                </div>
+                <div class="col-4">
+                    <ul>
+                        <li><a href="#">Work</a></li>
+                        <li><a href="#">Resume</a></li>
+                        <Li><a href="#">Contact</a></Li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+
         <!-- Home Section -->
         <section class="home">
             <img class="home_img" src="images/home.jpg" alt="home image">
@@ -44,7 +44,9 @@
                 <h2 class="about_title">About</h2>
             </div>
             <div class="col-4 bg">
-                <img class="about_img" src="images/me.jpg" alt="a picture of me">
+                <div class="about_img">
+                    <img src="images/me.png" alt="a picture of me">
+                </div>
             </div>
             <div class="col-8 bg">
                 <div class="about_text">
@@ -62,71 +64,78 @@
         <section class="skills">
             <div class="col-12 bg">
                 <h2 class="skills_title">Skills</h2>
+            </div>
+
+            <div class="col-4 bg">
+                <div class="skills_img">
+                    <img class="skills_img" src="images/me2.png" alt="a picture of a me">
+                </div>
+            </div>
+
+            <div class="col-8 bg">
                 <div class="skills_text">
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer scelerisque sodales augue eu faucibus. Nunc varius quam ac libero hendrerit, eu vestibulum neque tristique. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer scelerisque sodales
                         augue eu faucibus. Nunc varius quam ac libero hendrerit, eu vestibulum neque tristique.
                     </p>
                 </div>
-                <div class="col-12 bg">
-                    <img class="skills_img" src="images/laptop.jpeg" alt="a picture of a laptop">
-                </div>
-            </div>
-        </section>
-
-        <!-- Work Section -->
-        <section class="work">
-            <div class="col-12 bg">
-                <h2 class="about_title">Work</h2>
-            </div>
-            <!-- Porfolio Item 1 -->
-            <div class="col-12 bg">
-                <figure class="work_item">
-                    <img src="images/work1.png" alt="project one preview">
-                    <figcaption>
-                        <h3 class="work_title">Project Name</h3>
-                        <p class="work_description">What the project is</p>
-                        <a href="" class="work_link">See Project</a>
-                    </figcaption>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer scelerisque sodales augue eu faucibus. Nunc varius quam ac libero hendrerit, eu vestibulum neque tristique. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer scelerisque sodales
-                        augue eu faucibus. Nunc varius quam ac libero hendrerit, eu vestibulum neque tristique.
-                    </p>
-                </figure>
-            </div>
-
-            <!-- Porfolio Item 2 -->
-            <div class="col-12 bg">
-                <figure class="work_item">
-                    <img src="images/work2.png" alt="project two preview">
-                    <figcaption>
-                        <h3 class="work_title">Project Name</h3>
-                        <p class="work_description">What the project is</p>
-                        <a href="" class="work_link">See Project</a>
-                    </figcaption>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer scelerisque sodales augue eu faucibus. Nunc varius quam ac libero hendrerit, eu vestibulum neque tristique. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer scelerisque sodales
-                        augue eu faucibus. Nunc varius quam ac libero hendrerit, eu vestibulum neque tristique.
-                    </p>
-                </figure>
-            </div>
-
-            <!-- Porfolio Item 3 -->
-            <div class="col-12 bg">
-                <figure class="work_item">
-                    <img src="images/work3.png" alt="project three preview">
-                    <figcaption>
-                        <h3 class="work_title">Project Name</h3>
-                        <p class="work_description">What the project is</p>
-                        <a href="" class="work_link">See Project</a>
-                    </figcaption>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer scelerisque sodales augue eu faucibus. Nunc varius quam ac libero hendrerit, eu vestibulum neque tristique. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer scelerisque sodales
-                        augue eu faucibus. Nunc varius quam ac libero hendrerit, eu vestibulum neque tristique.
-                    </p>
-                </figure>
             </div>
     </div>
+    </section>
+
+    <!-- Work Section -->
+    <section class="work">
+        <div class="col-12 bg">
+            <h2 class="about_title">Work</h2>
+        </div>
+        <!-- Porfolio Item 1 -->
+        <div class="col-12 bg">
+            <figure class="work_item">
+                <img src="#" alt="project one preview">
+                <figcaption>
+                    <h3 class="work_title">Project Name</h3>
+                    <p class="work_description">What the project is</p>
+                    <a href="" class="work_link">See Project</a>
+                </figcaption>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer scelerisque sodales augue eu faucibus. Nunc varius quam ac libero hendrerit, eu vestibulum neque tristique. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer scelerisque sodales
+                    augue eu faucibus. Nunc varius quam ac libero hendrerit, eu vestibulum neque tristique.
+                </p>
+            </figure>
+        </div>
+
+        <!-- Porfolio Item 2 -->
+        <div class="col-12 bg">
+            <figure class="work_item">
+                <img src="#" alt="project two preview">
+                <figcaption>
+                    <h3 class="work_title">Project Name</h3>
+                    <p class="work_description">What the project is</p>
+                    <a href="" class="work_link">See Project</a>
+                </figcaption>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer scelerisque sodales augue eu faucibus. Nunc varius quam ac libero hendrerit, eu vestibulum neque tristique. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer scelerisque sodales
+                    augue eu faucibus. Nunc varius quam ac libero hendrerit, eu vestibulum neque tristique.
+                </p>
+            </figure>
+        </div>
+
+        <!-- Porfolio Item 3 -->
+        <div class="col-12 bg">
+            <figure class="work_item">
+                <img src="#" alt="project three preview">
+                <figcaption>
+                    <h3 class="work_title">Project Name</h3>
+                    <p class="work_description">What the project is</p>
+                    <a href="" class="work_link">See Project</a>
+                </figcaption>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer scelerisque sodales augue eu faucibus. Nunc varius quam ac libero hendrerit, eu vestibulum neque tristique. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer scelerisque sodales
+                    augue eu faucibus. Nunc varius quam ac libero hendrerit, eu vestibulum neque tristique.
+                </p>
+            </figure>
+        </div>
+        </div>
 
     </section>
 
@@ -143,52 +152,34 @@
                 </p>
             </div>
         </div>
-         <div class="col-8 offset-2 bg">
-            <img src="images/download.png" alt="download logo">
+        <div class="col-12 bg">
+            <div class="resume_img">
+                <img src="images/download.png" alt="download logo">
             </div>
+        </div>
     </section>
 
     <!-- Contact Section -->
     <section class="contact">
         <div class="col-12 bg">
             <h2 class="contact_title">Contact</h2>
-        </div>
-        <form action="">
-            <div class="col-12 bg">
-                <label class="name">Name:
-                    <input type="text" id="name"/>
-                </label>
-            </div>
-
-            <div class="col-12 bg">
-                <label class="email">Email:
-                    <input type="text" id="email">
-                </label>
-            </div>
-
-            <div class="col-12 bg">
-                <label class="message">Message:
-                <textarea name="" id="message"></textarea>
-                </label>
-            </div>
-        </form>
 
         <div class="social_img">
             <div class="col-4 bg">
-        <img class="contact_img" src="images/facebook.png" alt="facebook logo">
-        </div>
-                    <div class="col-4 bg">
-        <img class="contact_img" src="images/twitter.png" alt="twitter logo">
-        </div>
-                    <div class="col-4 bg">
-        <img class="contact_img" src="images/linkedin.png" alt="linkedin logo">
-        </div>
+                <img class="contact_img" src="images/facebook.png" alt="facebook logo">
+            </div>
+            <div class="col-4 bg">
+                <img class="contact_img" src="images/twitter.png" alt="twitter logo">
+            </div>
+            <div class="col-4 bg">
+                <img class="contact_img" src="images/linkedin.png" alt="linkedin logo">
+            </div>
         </div>
     </section>
 
     <footer>
         <div class="col-12">
-        <p>Dan Fielding | 2018</p>
+            <p>Dan Fielding | 2018</p>
         </div>
     </footer>
 
