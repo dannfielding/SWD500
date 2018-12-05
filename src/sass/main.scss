@@ -37,7 +37,7 @@ $col_1_width: $max_width/$grid_cols;
 }
 
 body {
-    background-color: $orange;
+    background-color: $pearl;
     color: $white;
     font-family: 'Text Me One', sans-serif;
     line-height: 1.6;
@@ -50,9 +50,10 @@ body {
 }
 
 .nav {
+    position: fixed;
     overflow: hidden;
     width: 100%;
-    background-color: rgba(255, 153, 85, 1);
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .nav ul li {
