@@ -38,39 +38,42 @@ $col_1_width: $max_width/$grid_cols;
 
 body {
     background-color: $orange;
+    color: $white;
+    font-family: 'Text Me One', sans-serif;
+    line-height: 1.6;
     margin: 0;
 }
 
-.wrapper {
-    display: table;
+.nav ul {
+    list-style: none;
+    text-align: center;
 }
 
-.home {
-    color: $white;
-    font-family: 'Text Me One', sans-serif;
+.nav {
+    overflow: hidden;
+    width: 100%;
+    background-color: rgba(255, 153, 85, 1);
 }
 
-.about {
+.nav ul li {
+    display: inline-block;
+    list-style: none;
     color: $white;
     font-family: 'Text Me One', sans-serif;
+    font-size: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
-.skills {
-    color: $white;
-    font-family: 'Text Me One', sans-serif;
+.nav a {
+        color: $white;
+        text-decoration: none;
 }
 
-.work {
-    color: $white;
-    font-family: 'Text Me One', sans-serif;
+.nav h1 {
+    text-align: center;
 }
 
-.resume {
-    color: $white;
-    font-family: 'Text Me One', sans-serif;
-}
-
-.contact {
-    color: $white;
-    font-family: 'Text Me One', sans-serif;
+.home_img {
+    width: 100%;
 }
