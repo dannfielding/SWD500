@@ -1,4 +1,5 @@
 @import 'variables/all';
+@import 'sections/all';
 
 //Creating the grid
 //Grid variables
@@ -28,20 +29,6 @@ $col_1_width: $max_width/$grid_cols;
 
 .bg {
     border: 1px solid red;
-}
-
-//Portfolio Styling
-* {
-    margin: 0;
-    padding: 0;
-}
-
-body {
-    background-color: $pearl;
-    color: $white;
-    font-family: 'Text Me One', sans-serif;
-    line-height: 1.6;
-    margin: 0;
 }
 
 //navigation styling
@@ -75,27 +62,5 @@ body {
 }
 
 .nav h1 {
-    text-align: center;
-}
-
-//image styling
-
-.home_img {
-    width: 100%;
-}
-
-.about_img {
-    text-align: center;
-}
-
-.skills_img {
-    text-align: center;
-}
-
-.resume_img {
-    text-align: center;
-}
-
-.social_img {
     text-align: center;
 }

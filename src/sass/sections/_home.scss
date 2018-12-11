@@ -1,0 +1,35 @@
+.home {
+    position: relative;
+    text-align: center;
+    color: white;
+
+    .text h1 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-family: 'Oswald', sans-serif;
+        font-size: 50px;
+        color: $white;
+
+        &::before,
+        &::after {
+            content: '';
+            display: block;
+            margin: 0 auto;
+            width: 70%;
+            height: 2px;
+            background: $white;
+
+
+
+
+            img {
+                width: 100%;
+
+
+
+            }
+        }
+    }
+}
