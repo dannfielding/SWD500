@@ -7,12 +7,23 @@
 body {
     background-color: $pearl;
     color: $white;
-    font-family: 'Text Me One', sans-serif;
+    font-family: 'Noto Serif SC', sans-serif;
     line-height: 1.6;
     margin: 0;
-    top: 0;
 }
 
 img {
     max-width: 100%;
+}
+
+.divider {
+    &::before,
+        {
+        content: '';
+        display: block;
+        margin: 0 auto;
+        width: 70%;
+        height: 2px;
+        background: $white;
+    }
 }

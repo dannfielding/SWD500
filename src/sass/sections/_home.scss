@@ -5,31 +5,21 @@
 
     .text h1 {
         position: absolute;
+        display: inline block;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
         font-family: 'Oswald', sans-serif;
         font-size: 50px;
         color: $white;
-
-        &::before,
-        &::after {
-            content: '';
-            display: block;
-            margin: 0 auto;
-            width: 70%;
-            height: 2px;
-            background: $white;
-
+        border-top: $white solid 2px;
+        border-bottom: $white solid 2px;
 
 
 
             img {
-                width: 100%;
-
-
-
+                display: flex;
             }
-        }
+        
     }
 }
