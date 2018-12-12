@@ -5,10 +5,48 @@
 }
 
 .contactform input[type="text"] {
-	border: solid 1px #e8e8e8;
+	border: solid 1px $light_gray;
 	font-family: 'Oswald', sans-serif;
 	padding: 10px 7px;
 	margin-bottom: 15px;
 	outline: none;
 	width: 100%;
+}
+
+.contactform textarea {
+	border: solid 1px $light_gray;
+	font-family: 'Oswald', sans-serif;
+	padding: 10px 7px;
+	margin-bottom: 15px;
+	outline: none;
+	width: 100%;
+}
+
+.contactbutton {
+	text-align: center;
+
+
+	.button {
+		margin: auto 0;
+		text-align: center;
+		background-color: $red;
+		-moz-border-radius: 28px;
+		-webkit-border-radius: 28px;
+		border-radius: 28px;
+		border: 1px solid $dark_green;
+		display: inline-block;
+		cursor: pointer;
+		color: #ffffff;
+		font-family: Arial;
+		font-size: 17px;
+		padding: 16px 31px;
+		text-decoration: none;
+		text-shadow: 0px 1px 0px $green;
+
+
+		.button:active {
+			position: relative;
+			top: 1px;
+		}
+	}
 }

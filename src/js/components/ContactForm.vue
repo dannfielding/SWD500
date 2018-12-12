@@ -1,6 +1,5 @@
 <template>
 
-    <div class="example">
         
 <form>
     <div class="contactform col-12 bg">
@@ -19,14 +18,14 @@
     
         <div class="contactform col-12 bg">
     <p>
-        Message: <input :class="{ error: errors.has('message') }" type="text" v-validate="'required|message'" name="message">
+        Message: <textarea class="contacttextarea" :class="{ error: errors.has('message') }" type="textarea" v-validate="'required|message'" name="message"></textarea>
         <span v-show="errors.has('message')" class="error">{{ errors.first('message') }}</span>
     </p>
     </div>
     
-    <div class="contactform col-12 bg">
+    <div class="contactbutton col-2 offset-5 bg">
     <p>
-        <button type="submit">Submit</button>
+        <button class="button" type="submit">Submit</button>
     </p>
     </div>
 </form>
@@ -52,5 +51,4 @@
 </script>
 
 <style lang="scss" scoped>
-
 </style>
