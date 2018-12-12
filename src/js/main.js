@@ -8,8 +8,10 @@ import '../index.html';
 //import libraries
 import Vue from 'vue';
 import VeeValidate from 'vee-validate';
-import ContactForm from './components/ContactForm.vue';
 
+//import components
+import ContactForm from './components/ContactForm.vue';
+import { ErrorBag } from 'vee-validate';
 
 Vue.use(VeeValidate);
 Vue.component('contact-form', ContactForm);

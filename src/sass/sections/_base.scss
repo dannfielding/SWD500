@@ -15,15 +15,3 @@ body {
 img {
     max-width: 100%;
 }
-
-.divider {
-    &::before,
-        {
-        content: '';
-        display: block;
-        margin: 0 auto;
-        width: 70%;
-        height: 2px;
-        background: $white;
-    }
-}
