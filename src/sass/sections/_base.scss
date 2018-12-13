@@ -1,0 +1,17 @@
+//Basic Styling
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: $white;
+    color: $black;
+    font-family: 'Noto Serif SC', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+}

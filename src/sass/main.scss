@@ -1,8 +1,6 @@
-@import 'modules/all';
-
-body {
-    background-color: $orange;
-}
+//Import SASS Files
+@import 'variables/all';
+@import 'sections/all';
 
 //Creating the grid
 //Grid variables
@@ -13,14 +11,136 @@ $col_1_width: $max_width/$grid_cols;
 @for $i from 1 through 12 {
     .col-#{$i} {
         width: $col_1_width * $i;
-    }
-}
-@for $i from 1 through 12 {
-    .offset-#{$i} {
-        width: $col_1_width * $i;
+        content: "";
+        display: block;
+        float: left;
+
     }
 }
 
-.bg {
-    border: 1px solid red;
+@for $i from 1 through 12 {
+    .offset-#{$i} {
+        margin-left: $col_1_width * $i;
+    }
+}
+
+//Responsive for Mobile
+@media only screen and (max-width: 768px) {
+    //Navigation Styling
+    .nav {
+        background-color: $gray;
+    }
+
+    .nav ul {
+        list-style: none;
+        text-align: center;
+    }
+
+    .nav ul li {
+        display: inline-block;
+        list-style: none;
+        color: $white;
+        font-size: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .home h1 {
+        position: absolute;
+        display: inline block;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-family: 'Oswald', sans-serif;
+        font-size: 15px;
+        color: $white;
+        border-top: $white solid 2px;
+        border-bottom: $white solid 2px;
+    }
+
+    //Page Headings Styling
+    .about h2 {
+        font-size: 15px;
+    }
+
+    .skills h2 {
+        font-size: 15px;
+    }
+
+    .work h2 {
+        font-size: 15px;
+    }
+
+    .resume h2 {
+        font-size: 15px;
+    }
+
+    .contact h2 {
+        font-size: 15px;
+    }
+
+    .work h3 {
+        font-size: 12px;
+    }
+
+    //Paragraph Styling
+    .about p {
+        font-size: 10px;
+    }
+
+    .skills p {
+        font-size: 10px;
+    }
+
+    .work p {
+        font-size: 10px;
+    }
+
+    .resume p {
+        font-size: 10px;
+    }
+
+    .contact p {
+        font-size: 10px;
+    }
+    
+    //Section Width Styling
+    .about_text {
+        width: 100%;
+        margin: auto 0;
+    }
+
+    .skills_text {
+        width: 100%;
+        margin: auto 0;
+    }
+
+    .resume_text {
+        width: 100%;
+        margin: auto 0;
+    }
+
+    .work_item {
+        width: 100%;
+        margin: auto 0;
+    }
+
+    .contact_form {
+        width: 100%;
+        margin: auto 0;
+    }
+
+    .social_imgs {
+        width: 100%;
+        margin: auto 0;
+    }
+
+    .footer {
+        font-size: 10px;
+        text-align: center;
+        background-color: $gray;
+        height: 20px;
+        color: $white;
+    }
+
 }

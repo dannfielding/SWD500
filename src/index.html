@@ -5,122 +5,185 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <title>Dan Fielding's E-Portfolio</title>
 </head>
 
 <body>
-
     <div class="wrapper">
-        <!-- Home Section -->
-        <section class="home">
-            <h1>Dan Fielding's E-Portfolio</h1>
-            <img src="" alt="sunset_background">
-        </section>
+        <a id="home">
+            <header>
+                <div class="col-12">
+                    <div class="nav">
+                        <ul>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <Li><a href="#skills">Skills</a></Li>
+                            <li><a href="#work">Work</a></li>
+                            <li><a href="#resume">Resume</a></li>
+                            <Li><a href="#contact">Contact</a></Li>
+                        </ul>
+                    </div>
+                </div>
+            </header>
 
-        <!-- About Section -->
-        <section class="about">
-            <h2 class="about_title">About</h2>
-            <img class="about_img" src="images/me.jpg" alt="a picture of me">
-            <div class="about_text">
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer scelerisque sodales augue eu faucibus. Nunc varius quam ac libero hendrerit, eu vestibulum neque tristique.
-                </p>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer scelerisque sodales augue eu faucibus. Nunc varius quam ac libero hendrerit, eu vestibulum neque tristique.
-                </p>
+
+            <!-- Home Section -->
+            <div class="home">
+                <img class="home_img" src="images/home.png" alt="home image">
+                    <h1>Dan Fielding's Website</h1>
+                </div>
             </div>
-        </section>
 
-        <!-- Skills Section -->
-        <section class="skills">
-            <h2 class="skills_title">Skills</h2>
-            <div class="skills_text">
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer scelerisque sodales augue eu faucibus. Nunc varius quam ac libero hendrerit, eu vestibulum neque tristique. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer scelerisque sodales
-                    augue eu faucibus. Nunc varius quam ac libero hendrerit, eu vestibulum neque tristique.
-                </p>
-                <img class="skills_img" src="" alt="a picture of a laptop">
-        </section>
+            <!-- About Section -->
+            <section class="about">
+                <div class="col-12 bg">
+                    <a id="about">
+                        <h2 class="about_title">About</h2>
+                </div>
+                <div class="col-6 offset-3 bg">
+                    <div class="about_img">
+                        <img src="images/me.png" alt="a picture of me">
+                    </div>
+                </div>
+                <div class="about_text col-6 offset-3 bg">
+                        <p>
+                            Aliquam laoreet aliquet diam, eu tempor augue blandit quis. Sed in risus elit. Donec blandit sollicitudin velit quis aliquam. Duis volutpat lacus magna, tempor consequat libero blandit non. Aenean in odio at mauris pellentesque rhoncus nec dignissim ex.
+                            Proin nec justo tempor, volutpat lacus eu, egestas velit. Cras tempus bibendum varius. Quisque eget ornare mi. Aliquam ut congue arcu, et facilisis nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere
+                            cubilia Curae; Phasellus fringilla lorem vestibulum nulla pretium viverra. Aenean sed erat et dui pulvinar convallis in ac urna. Cras semper gravida lectus id ultricies. Etiam venenatis nunc ligula, ac ullamcorper turpis sollicitudin
+                            nec. Nam nec nisl ante.
+                        </p>
+                        <a id="skills">
+                </div>
+            </section>
 
-        <!-- Work Section -->
-        <section class="work">
-            <h2 class="about_title">Work</h2>
-            <div class="work_items">
+            <!-- Skills Section -->
+            <section class="skills">
+
+                <div class="col-12 bg">
+                    <h2 class="skills_title">Skills</h2>
+                </div>
+
+                <div class="col-6 offset-3  bg">
+                    <div class="skills_img">
+                        <img class="skills_img" src="images/me2.png" alt="a picture of a me">
+                    </div>
+                </div>
+
+                <div class="skills_text col-6 offset-3 bg">
+                        <p>
+                            Aliquam laoreet aliquet diam, eu tempor augue blandit quis. Sed in risus elit. Donec blandit sollicitudin velit quis aliquam. Duis volutpat lacus magna, tempor consequat libero blandit non. Aenean in odio at mauris pellentesque rhoncus nec dignissim ex.
+                            Proin nec justo tempor, volutpat lacus eu, egestas velit. Cras tempus bibendum varius. Quisque eget ornare mi. Aliquam ut congue arcu, et facilisis nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere
+                            cubilia Curae; Phasellus fringilla lorem vestibulum nulla pretium viverra. Aenean sed erat et dui pulvinar convallis in ac urna. Cras semper gravida lectus id ultricies. Etiam venenatis nunc ligula, ac ullamcorper turpis sollicitudin
+                            nec. Nam nec nisl ante.
+                            <a id="work">
+                </div>
+            </section>
+
+            <!-- Work Section -->
+            <section class="work">
+                <div class="col-12 bg">
+                    <h2 class="about_title">Work</h2>
+                </div>
                 <!-- Porfolio Item 1 -->
-                <figure class="work_item">
-                    <img src="images/work1.png" alt="project one preview">
-                    <figcaption>
-                        <h3 class="work_title">Project Name</h3>
-                        <p class="work_description">What the project is</p>
-                        <a href="" class="work_link">See Project</a>
-                    </figcaption>
-                </figure>
+                <div class="work_item col-6 offset-3 bg">
+                        <img src="images/work1.jpg" alt="project one preview">
+                        <h3 class="work_title">Project One</h3>
+                        <p>
+                            Phasellus fringilla lorem vestibulum nulla pretium viverra. Aenean sed erat et dui pulvinar convallis in ac urna. Cras semper gravida lectus id ultricies. Etiam venenatis nunc ligula, ac ullamcorper turpis sollicitudin nec. Nam nec nisl ante.
+                        </p>
+                </div>
 
                 <!-- Porfolio Item 2 -->
-                <figure class="work_item">
-                    <img src="images/work2.png" alt="project two preview">
-                    <figcaption>
-                        <h3 class="work_title">Project Name</h3>
-                        <p class="work_description">What the project is</p>
-                        <a href="" class="work_link">See Project</a>
-                    </figcaption>
-                </figure>
+                <div class="work_item col-6 offset-3 bg">
+                        <img src="images/work2.jpg" alt="project two preview">
+                        <h3 class="work_title">Project Two</h3>
+                        <p>
+                            Phasellus fringilla lorem vestibulum nulla pretium viverra. Aenean sed erat et dui pulvinar convallis in ac urna. Cras semper gravida lectus id ultricies. Etiam venenatis nunc ligula, ac ullamcorper turpis sollicitudin nec. Nam nec nisl ante.
+                        </p>
+                </div>
 
                 <!-- Porfolio Item 3 -->
-                <figure class="work_item">
-                    <img src="images/work3.png" alt="project three preview">
-                    <figcaption>
-                        <h3 class="work_title">Project Name</h3>
-                        <p class="work_description">What the project is</p>
-                        <a href="" class="work_link">See Project</a>
-                    </figcaption>
-                </figure>
-            </div>
+                <div class="work_item col-6 offset-3 bg">
+                        <img src="images/work3.jpg" alt="project three preview">
+                        <h3 class="work_title">Project Three</h3>
+                        <p>
+                            Phasellus fringilla lorem vestibulum nulla pretium viverra. Aenean sed erat et dui pulvinar convallis in ac urna. Cras semper gravida lectus id ultricies. Etiam venenatis nunc ligula, ac ullamcorper turpis sollicitudin nec. Nam nec nisl ante.
+                        </p>
+                        <a id="resume">
+                </div>
 
+    </section>
 
-        </section>
-
-        <!-- Resume Section -->
-        <section class="resume">
+    <!-- Resume Section -->
+    <section class="resume">
+        <div class="col-12 bg">
             <h2 class="resume_title">Resume</h2>
-            <div class="resume_text">
+        </div>
+        <div class="resume_text col-6 offset-3 bg">
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer scelerisque sodales augue eu faucibus. Nunc varius quam ac libero hendrerit, eu vestibulum neque tristique. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer scelerisque sodales
-                    augue eu faucibus. Nunc varius quam ac libero hendrerit, eu vestibulum neque tristique.
+                    Etiam vestibulum ex tristique magna viverra, id iaculis mi bibendum. Praesent ullamcorper, ligula et fermentum dapibus, arcu metus fringilla tortor, nec bibendum urna tellus sed tellus. Sed venenatis semper velit et tincidunt. Donec ut leo sed lectus
+                    suscipit lacinia faucibus a lorem. Donec cursus magna a urna venenatis blandit. Praesent mattis luctus odio, id rhoncus nisi dictum vel. Fusce non blandit justo. Mauris nec porta felis, mattis efficitur augue. Proin eu dui vestibulum
+                    turpis tincidunt fermentum. Sed tempor dui quis ornare malesuada. Phasellus ornare urna felis, non sagittis nunc consectetur vel. Curabitur suscipit aliquet ex, vel tincidunt velit. Donec tempus luctus risus nec porta. Phasellus aliquam
+                    dolor sed neque feugiat, ac vulputate mi aliquet. Etiam at sollicitudin lacus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse scelerisque tempus tortor vel lobortis. Aliquam dictum
+                    pretium felis ut pharetra.
                 </p>
-                <img class="resume_img" src="images/download.png" alt="download image">
-        </section>
+                <p>
+                    Aliquam laoreet aliquet diam, eu tempor augue blandit quis. Sed in risus elit. Donec blandit sollicitudin velit quis aliquam. Duis volutpat lacus magna, tempor consequat libero blandit non. Aenean in odio at mauris pellentesque rhoncus nec dignissim ex.
+                    Proin nec justo tempor, volutpat lacus eu, egestas velit. Cras tempus bibendum varius. Quisque eget ornare mi. Aliquam ut congue arcu, et facilisis nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
+                    Curae; Phasellus fringilla lorem vestibulum nulla pretium viverra. Aenean sed erat et dui pulvinar convallis in ac urna. Cras semper gravida lectus id ultricies. Etiam venenatis nunc ligula, ac ullamcorper turpis sollicitudin nec.
+                    Nam nec nisl ante.
+                </p>
+        </div>
+        <div class="col-2 offset-5 bg">
+                <div class="resume_img">
+                    <img src="images/download_symbol.png" alt="download logo" onMouseOver="rollover(this)" onMouseOut="rolloveroff(this)">
+                    <a id="contact">
+                </div>
+        </div>
+    </section>
 
-        <!-- Contact Section -->
-        <section class="contact">
+    <!-- Contact Section -->
+    <section class="contact">
+        <div class="col-12 bg">
             <h2 class="contact_title">Contact</h2>
-            <form action="">
-                <label class="name">Name:
-                    <input type="text" id="name"/>
-                </label>
-
-                <label class="email">Email:
-                    <input type="text" id="email">
-                </label>
-
-                <label class="message">Message:
-                <textarea name="" id="message"></textarea>
-                </label>
-            </form>
-
-            <img class="contact_img" src="images/facebook.png" alt="facebook logo">
-            <img class="contact_img" src="images/twitter.png" alt="twitter logo">
-            <img class="contact_img" src="images/linkedin.png" alt="linkedin logo">
-        </section> 
-        
-        <footer>
-            <p>Dan Fielding | 2018</p>
-        </footer>
-
+        </div>
+        <div class="contact_form col-6 offset-3 bg">
+            <div id="app">
+                <contact-form></contact-form>
+            </div>
         </div>
 
-        <script type="text/javascript" src="bundle.js"></script>
+        <div class="col-12 bg">
+            <h2 class="contact_title">Social</h2>
+        </div>
+        <div class="social_imgs col-4 offset-4 bg">
+                <div class="social_imgs col-4 bg">
+                    <img class="contact_img" src="images/facebook.png" alt="facebook logo">
+                    <p>@dannfielding</p>
+                </div>
+                <div class="social_imgs col-4 bg">
+                    <img class="contact_img" src="images/twitter.png" alt="twitter logo">
+                    <p>@dannfielding</p>
+                </div>
+                <div class="social_imgs col-4 bg">
+                    <img class="contact_img" src="images/linkedin.png" alt="linkedin logo">
+                    <p>@dannfielding</p>
+                </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer col-12 bg">
+                <p>Copyright 2018 | Dan Fielding</p>
+            </div>
+    </footer>
+
+    </div>
+
+    <script type="text/javascript" src="bundle.js"></script>
 </body>
 
 </html>

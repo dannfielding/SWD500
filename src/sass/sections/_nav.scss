@@ -1,0 +1,28 @@
+//Navigation Styling
+.nav {
+    background-color: $gray;
+    position: fixed;
+    overflow: hidden;
+    z-index: 99999;
+    width: 100%;
+}
+ 
+ .nav ul {
+     list-style: none;
+     text-align: center;
+ }
+ 
+ 
+ .nav ul li {
+     display: inline-block;
+     list-style: none;
+     color: $white;
+     font-size: 35px;
+     padding-left: 20px;
+     padding-right: 20px;
+ }
+ 
+ .nav a {
+         color: $white;
+         text-decoration: none;
+ }
