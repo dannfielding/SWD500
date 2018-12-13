@@ -22,7 +22,20 @@
 | Browser Compatibility on Firefox|The website should work properly on this browser | Pass| Pass|
 
 ## Screenshots
-  
+Website running on Google Chrome
+<img width="1440" alt="screenshot 2018-12-13 at 16 15 04" src="https://user-images.githubusercontent.com/32326681/49951630-4d773980-fef2-11e8-97b9-d9c4d88ed6a9.png">
+
+Website running on Safari
+<img width="1440" alt="screenshot 2018-12-13 at 16 09 59" src="https://user-images.githubusercontent.com/32326681/49951345-98448180-fef1-11e8-9b20-2dcde4d71427.png">
+
+Website running on Firefox
+<img width="1440" alt="screenshot 2018-12-13 at 17 07 47" src="https://user-images.githubusercontent.com/32326681/49955115-f6756280-fef9-11e8-8b45-6461f241f467.png">
+
+Website Favicon
+<img width="186" alt="screenshot 2018-12-13 at 16 10 59" src="https://user-images.githubusercontent.com/32326681/49951390-b7dbaa00-fef1-11e8-9fa1-6c6b7a6aae6f.png">
+
+Contact Form Validation
+<img width="854" alt="screenshot 2018-12-13 at 16 13 55" src="https://user-images.githubusercontent.com/32326681/49951551-1d2f9b00-fef2-11e8-98fb-416d776750d5.png">
   
 
 ##  Environment configuration 
