@@ -1,6 +1,4 @@
 <template>
-
-        
 <form>
     <div class="contactform col-12 bg">
     <p>
@@ -29,10 +27,6 @@
     </p>
     </div>
 </form>
-
-            
-    </div>
-
 </template>
 
 <script>
@@ -49,6 +43,3 @@
         }
     }
 </script>
-
-<style lang="scss" scoped>
-</style>

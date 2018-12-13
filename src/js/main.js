@@ -20,13 +20,3 @@ const app = new Vue({
     el: '#app',
 });
 
-
-function rollover(image) { // Rollover function
-    image.src = "images/download_symbol.png";
-}
-
-function rolloveroff(image) { // Rollover function
-    image.src = "images/download_symbol1.jpg";
-}
-
-
