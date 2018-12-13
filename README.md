@@ -31,12 +31,20 @@ Website running on Safari
 Website running on Firefox
 <img width="1440" alt="screenshot 2018-12-13 at 17 07 47" src="https://user-images.githubusercontent.com/32326681/49955115-f6756280-fef9-11e8-8b45-6461f241f467.png">
 
+Website running on Internet Explorer
+![internetexplore_desktop](https://user-images.githubusercontent.com/32326681/49959723-5245e880-ff06-11e8-9f06-f352f904dc7d.png)
+
+Responsive Image
+<img width="565" alt="screenshot 2018-12-13 at 18 39 44" src="https://user-images.githubusercontent.com/32326681/49959788-7a354c00-ff06-11e8-8368-14193964b64c.png">
+
 Website Favicon
 <img width="186" alt="screenshot 2018-12-13 at 16 10 59" src="https://user-images.githubusercontent.com/32326681/49951390-b7dbaa00-fef1-11e8-9fa1-6c6b7a6aae6f.png">
 
 Contact Form Validation
-<img width="854" alt="screenshot 2018-12-13 at 16 13 55" src="https://user-images.githubusercontent.com/32326681/49951551-1d2f9b00-fef2-11e8-98fb-416d776750d5.png">
-  
+<img width="854" alt="screenshot6750d5.png">
+
+## Evaluation
+When making the website I found that the grid system was really useful as it made positioning all of my sections really easy also meant that when making it responsive all it took were few lines of code changing the size of the columns, images, and text. I found that Vue was the hardest part to do as it played around with functions that I'd never touched before, although I found it relatively easy to pick up after a short while and can see why it's popular. Using SASS for the first time allowed me to layout my CSS more easily as I could spread my styling for different parts of the website over different files, also the addition of nesting and naming conventions for colors meant that code was easier to write and read. If I was to make the website again I'd give my self more time to put in a link to firebase so that the information inputted into the contact form could be stored in a database. I think that the website's final outcome is pretty good, it has good functionality working on both mobile and desktop, my code is easily readable, my file structure is easy to navigate and the website looks good.
 
 ##  Environment configuration 
 
