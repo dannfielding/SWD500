@@ -23,7 +23,7 @@
     </p>
     </div>
     
-    <div class="contactbutton col-2 offset-5 bg">
+    <div class="contactbutton col-12 bg">
     <p>
         <button class="button" type="submit">Submit</button>
     </p>
